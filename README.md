@@ -1,9 +1,9 @@
 # SE_final_project
 
-Overview
+# Overview
 The Cinema Management System is a desktop application built using Python and customtkinter for managing movie bookings, user registrations, and cinema operations. It provides functionalities for users to book tickets, cancel bookings, and view available movies, while administrators can add and update movie details.
 
-Features
+# Features
 User Registration and Authentication: Users can register and log in securely with hashed passwords.
 
 Movie Management: Admins can add and update movie details (title, genre, duration, etc.).
@@ -18,7 +18,7 @@ Snack List: Displays a static list of available snacks.
 
 Feedback Form: Allows users to submit feedback after watching a movie.
 
-Technologies Used
+# Technologies Used
 Python: Core programming language.
 
 customtkinter: Modern GUI library for creating the user interface.
@@ -29,7 +29,7 @@ pyodbc: Python library for connecting to the SQL Server database.
 
 PIL (Pillow): For handling images (e.g., movie posters).
 
-Database Schema
+# Database Schema
 The system uses the following tables:
 
 Customer: Stores user information (name, password, phone number).
