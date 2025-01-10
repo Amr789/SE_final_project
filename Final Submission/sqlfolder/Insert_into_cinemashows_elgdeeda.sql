@@ -1,0 +1,10 @@
+Use Cinema
+INSERT INTO Cinema_Shows (Movie_ID, Movie_Name, Room_ID, Available_Seats, Seat_Matrix, Show_Time) VALUES
+(1, 'The Shawshank Redemption', 1, 149, '{"A1": "Booked", "A2": "Available", "A3": "Available", "B1": "Available", "B2": "Available", "B3": "Available", "C1": "Available", "C2": "Available", "C3": "Available"}', '2025-01-06 15:00:00'),
+(2, 'The Godfather', 2, 198, '{"A1": "Booked", "A2": "Available", "A3": "Available", "B1": "Available", "B2": "Booked", "B3": "Available", "C1": "Available", "C2": "Available", "C3": "Available"}', '2025-01-06 18:00:00'),
+(3, 'The Dark Knight', 3, 99, '{"A1": "Available", "A2": "Booked", "A3": "Available", "B1": "Available", "B2": "Available", "B3": "Available", "C1": "Booked", "C2": "Available", "C3": "Available"}', '2025-01-06 21:00:00'),
+(4, 'Inception', 1, 147, '{"A1": "Available", "A2": "Booked", "A3": "Booked", "B1": "Available", "B2": "Available", "B3": "Available", "C1": "Available", "C2": "Available", "C3": "Available"}', '2025-01-07 14:00:00'),
+(5, 'Forrest Gump', 2, 197, '{"A1": "Available", "A2": "Available", "A3": "Booked", "B1": "Available", "B2": "Available", "B3": "Available", "C1": "Available", "C2": "Available", "C3": "Available"}', '2025-01-07 17:00:00'),
+(6, 'The Lord of the Rings: The Fellowship of the Ring', 3, 98, '{"A1": "Available", "A2": "Available", "A3": "Available", "B1": "Booked", "B2": "Available", "B3": "Available", "C1": "Booked", "C2": "Available", "C3": "Available"}', '2025-01-07 20:00:00'),
+(7, 'Pulp Fiction', 1, 145, '{"A1": "Booked", "A2": "Booked", "A3": "Booked", "B1": "Available", "B2": "Available", "B3": "Available", "C1": "Available", "C2": "Available", "C3": "Available"}', '2025-01-08 15:30:00'),
+(8, 'Interstellar', 2, 196, '{"A1": "Available", "A2": "Available", "A3": "Available", "B1": "Available", "B2": "Booked", "B3": "Available", "C1": "Available", "C2": "Booked", "C3": "Available"}', '2025-01-08 19:00:00');
